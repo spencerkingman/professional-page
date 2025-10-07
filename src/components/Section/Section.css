@@ -1,0 +1,9 @@
+.section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 36.25rem; /* 580px - approximating max-w-145 */
+  border-top: 1px solid #555; /* border-s-amber-50 equivalent */
+  border-left: 1px solid #aaa;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
