@@ -1,7 +1,17 @@
 import './Section.css'
 
-function Section({ children }: { children: React.ReactNode }) {
-  return <section className="section">{children}</section>
+function Section({
+  children,
+  marginOverrides = ''
+}: {
+  children: React.ReactNode
+  marginOverrides?: string
+}) {
+  return (
+    <section className={`section mt-8 mb-8 ${marginOverrides}`}>
+      {children}
+    </section>
+  )
 }
 
 export default Section

@@ -1,23 +1,58 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
-@font-face{
-    font-family: "Zen Old Mincho";
-    src:local("ZenOldMincho-Regular"),
-    url('./assets/fonts/Zen_Old_Mincho/ZenOldMincho-Regular.ttf') 
+@font-face {
+  font-family: 'Zen Old Mincho';
+  src:
+    local('ZenOldMincho-Black'),
+    url('./assets/fonts/Zen_Old_Mincho/ZenOldMincho-Black.ttf');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Zen Old Mincho';
+  src:
+    local('ZenOldMincho-Bold'),
+    url('./assets/fonts/Zen_Old_Mincho/ZenOldMincho-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Zen Old Mincho';
+  src:
+    local('ZenOldMincho-SemiBold'),
+    url('./assets/fonts/Zen_Old_Mincho/ZenOldMincho-SemiBold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Zen Old Mincho';
+  src:
+    local('ZenOldMincho-Medium'),
+    url('./assets/fonts/Zen_Old_Mincho/ZenOldMincho-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Zen Old Mincho';
+  src:
+    local('ZenOldMincho-Regular'),
+    url('./assets/fonts/Zen_Old_Mincho/ZenOldMincho-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
 }
 
 .zen-old-mincho-regular {
-    font-family: "Zen Old Mincho", serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'Zen Old Mincho', serif;
+  font-weight: 400;
+  font-style: normal;
 }
-  
+
 .list-circle {
-    list-style-type: '&  ';
+  list-style-type: '&  ';
 }
 
 :root {
-  font-family: "Zen Old Mincho", serif;
+  font-family: 'Zen Old Mincho', serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 16px;

@@ -14,13 +14,22 @@
 }
 
 .nav-link.active {
-  color: goldenrod;
+  color: #f2cc53;
   text-decoration: none;
   pointer-events: none;
 }
-
 .nav-link.active:hover {
-  color: goldenrod;
+  color: #f2cc53;
+}
+
+.nav-link.nav-link--portfolio-project-active {
+  color: #f2cc53;
+  text-decoration: underline;
+}
+
+.nav-link.nav-link--portfolio-project-active:hover {
+  color: #f6dd8c;
+  text-decoration: underline;
 }
 
 .layout-container {
@@ -28,7 +37,6 @@
   display: flex;
   flex-direction: column;
   background-color: black;
-  color: white;
 }
 
 .main-content {
@@ -37,7 +45,7 @@
 
 .footer {
   margin-top: auto;
-  background-color: white;
+  background-color: #ccc;
   color: black;
   padding: 1rem;
 }

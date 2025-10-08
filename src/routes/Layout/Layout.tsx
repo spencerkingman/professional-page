@@ -1,10 +1,12 @@
-import { NavLink, Outlet } from 'react-router'
+import { NavLink, Outlet, useLocation } from 'react-router'
 import './Layout.css'
 
 const Layout = () => {
+  const location = useLocation()
+  console.log('🚀 ~ Layout ~ location:', location)
   return (
     <div className="layout-container">
-      <header className="p-4 pb-0 sm:p-12 sm:pb-0">
+      <header className="z-20 p-4 pb-0 sm:p-12 sm:pb-0">
         <h1 className="text-4xl tracking-tight">
           {'Spencer Kingman - Professional\u00A0Page'}
         </h1>
@@ -12,7 +14,21 @@ const Layout = () => {
           <NavLink className="nav-link" to="/">
             Home
           </NavLink>
-          <NavLink className="nav-link" to="/portfolio">
+          <NavLink
+            className={({ isActive }) => {
+              const baseClass = 'nav-link'
+              if (!isActive) return baseClass
+
+              // On portfolio index page
+              if (location.pathname === '/portfolio') {
+                return `${baseClass} active`
+              }
+
+              // On portfolio project page
+              return `${baseClass} nav-link--portfolio-project-active`
+            }}
+            to="/portfolio"
+          >
             Portfolio
           </NavLink>
           <NavLink className="nav-link" to="/faq">

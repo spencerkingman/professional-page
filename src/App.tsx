@@ -13,13 +13,15 @@ function App() {
     <Routes>
       <Route element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="portfolio" element={<Portfolio />} />
+        <Route path="portfolio">
+          <Route index element={<Portfolio />} />
+          <Route
+            path="keyboard-smash-detector"
+            element={<KeyboardSmashDetector />}
+          />
+        </Route>
         <Route path="faq" element={<FAQ />} />
         <Route path="contact" element={<Contact />} />
-        <Route
-          path="keyboard-smash-detector"
-          element={<KeyboardSmashDetector />}
-        />
       </Route>
     </Routes>
   )
