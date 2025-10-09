@@ -1,7 +1,7 @@
 .section {
   max-width: 36.25rem; /* 580px - approximating max-w-145 */
-  border-top: 1px solid #555; /* border-s-amber-50 equivalent */
-  border-left: 1px solid #aaa;
+  border-top: 1px solid #222;
+  border-left: 1px solid #444;
   border-radius: 0.5rem;
   padding: 1rem;
 }
