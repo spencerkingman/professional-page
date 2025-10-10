@@ -51,6 +51,10 @@
   list-style-type: '&  ';
 }
 
+.list-circle li::marker {
+  color: #555;
+}
+
 :root {
   font-family: 'Zen Old Mincho', serif;
   line-height: 1.5;

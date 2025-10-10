@@ -3,44 +3,46 @@ import Section from '../../components/Section/Section'
 function Contact() {
   return (
     <Section>
-      <h2 className="text-2xl mb-4">Contact</h2>
+      <h2 className="text-2xl mb-4 ">Contact</h2>
       <div className="space-y-4">
-        <p className="text-base">
-          I'm always interested in hearing about new opportunities and
-          interesting projects.
-        </p>
         <div>
-          <h3 className="text-lg font-semibold mb-2">Get in Touch</h3>
-          <ul className="space-y-2">
+          <ul className="list-circle list-inside space-y-2">
             <li>
-              <strong>Email:</strong>{' '}
               <a
-                href="mailto:spencer@example.com"
-                className="underline hover:text-white active:text-gray-300"
+                href="mailto:spencerkingman@gmail.com"
+                className="hover:text-white active:text-gray-300"
               >
-                spencer@example.com
+                spencerkingman@gmail.com
               </a>
             </li>
             <li>
-              <strong>LinkedIn:</strong>{' '}
               <a
-                href="https://linkedin.com/in/spencerkingman"
-                className="underline hover:text-white active:text-gray-300"
+                href="https://github.com/spencerkingman"
+                className="hover:text-white active:text-gray-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                linkedin.com/in/spencerkingman
+                github.com/spencerkingman-niche
               </a>
             </li>
             <li>
-              <strong>GitHub:</strong>{' '}
               <a
                 href="https://github.com/spencerkingman"
-                className="underline hover:text-white active:text-gray-300"
+                className="hover:text-white active:text-gray-300"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 github.com/spencerkingman
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/spencer-kingman-4776b5126"
+                className="hover:text-white active:text-gray-300"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                www.linkedin.com/in/spencer-kingman-4776b5126
               </a>
             </li>
           </ul>
