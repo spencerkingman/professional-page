@@ -14,7 +14,6 @@ const KeyboardSmashDetector = () => {
 
   useEffect(() => {
     const result = isKeyboardSmash(inputValue)
-    console.log('🚀 ~ KeyboardSmashDetector ~ result:', result)
     setTestResult(result)
   }, [inputValue])
 

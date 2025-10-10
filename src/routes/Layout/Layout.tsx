@@ -3,7 +3,6 @@ import './Layout.css'
 
 const Layout = () => {
   const location = useLocation()
-  console.log('🚀 ~ Layout ~ location:', location)
   return (
     <div className="layout-container">
       <header className="z-20 p-4 pb-0 sm:p-12 sm:pb-0">

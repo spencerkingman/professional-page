@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
       <Section>
-        <h2 className="text-2xl mb-4">About Me</h2>
+        <h2 className="text-2xl mb-4 tracking-tight">About Me</h2>
         <p className="mb-4 text-base">
           {
             'My primary professional experience is as a software engineer, and before that, a high school math teacher. For the past eight years, I have been a key contributor at '
