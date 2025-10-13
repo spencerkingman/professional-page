@@ -32,7 +32,17 @@ const KeyboardSmashDetector = () => {
       <Section>
         <h3 className="text-xl font-semibold mb-4">Code</h3>
         <p className="pb-4">
-          You can inspect the React code for this demo page{' '}
+          The demo is built with React, Typescript, and Tailwind. I used Claude
+          to write the MVP. I have published the project to GitHub. The UI code
+          is available{' '}
+          <a
+            href="https://github.com/spencerkingman/professional-page/blob/main/src/routes/KeyboardSmashDetector.tsx/KeyboardSmashDetector.tsx"
+            className="hover:text-white active:text-gray-300 underline"
+            target="_blank"
+          >
+            here
+          </a>
+          , and the logic is{' '}
           <a
             href="https://github.com/spencerkingman/professional-page/blob/main/src/routes/KeyboardSmashDetector.tsx/KeyboardSmashDetector.tsx"
             className="hover:text-white active:text-gray-300 underline"
@@ -43,7 +53,6 @@ const KeyboardSmashDetector = () => {
           .
         </p>
       </Section>
-
       <Section marginOverrides="mb-24">
         <h3 className="text-xl font-semibold mb-4">Notes</h3>
         <p className="pb-4">
