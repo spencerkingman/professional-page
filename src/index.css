@@ -69,4 +69,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
+
+  overscroll-behavior: none;
 }

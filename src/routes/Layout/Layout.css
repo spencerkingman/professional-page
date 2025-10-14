@@ -45,7 +45,8 @@
 
 .footer {
   margin-top: auto;
+  /* --uncomment to make footer black on white-- 
   background-color: #ccc;
-  color: black;
+  color: black; */
   padding: 1rem;
 }
