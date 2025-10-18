@@ -7,6 +7,7 @@ import Portfolio from './routes/Portfolio/Portfolio'
 import FAQ from './routes/FAQ/FAQ'
 import Contact from './routes/Contact/Contact'
 import Layout from './routes/Layout/Layout'
+import ProfessionalPage from './routes/ProfessionalPage/ProfessionalPage'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             path="keyboard-smash-detector"
             element={<KeyboardSmashDetector />}
           />
+          <Route path="professional-page" element={<ProfessionalPage />} />
         </Route>
         <Route path="faq" element={<FAQ />} />
         <Route path="contact" element={<Contact />} />
